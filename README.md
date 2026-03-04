@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>التحدي</title>
+<style>
+body{
+font-family:Arial;
+text-align:center;
+background:#111;
+color:white;
+padding:40px;
+}
+button{
+padding:10px 20px;
+font-size:18px;
+margin:10px;
+}
+a{
+display:block;
+margin:10px;
+color:#00ffcc;
+font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="rules">
+<h2>⚠️ شرط اللعبة</h2>
+<p>إذا خسرت لازم تتابع حساباتنا.</p>
+<button onclick="startGame()">أوافق</button>
+</div>
+
+<div id="game" style="display:none">
+<iframe src="https://chromedino.com" width="600" height="200"></iframe>
+<br><br>
+<button onclick="lose()">خسرت</button>
+</div>
+
+<div id="lose" style="display:none">
+<h2>😅 خسرت!</h2>
+<p>يلا تابع حساباتنا:</p>
+
+<a href="https://instagram.com/youraccount1">الحساب الأول</a>
+<a href="https://instagram.com/youraccount2">الحساب الثاني</a>
+
+</div>
+
+<script>
+function startGame(){
+document.getElementById("rules").style.display="none";
+document.getElementById("game").style.display="block";
+}
+
+function lose(){
+document.getElementById("game").style.display="none";
+document.getElementById("lose").style.display="block";
+}
+</script>
+
+</body>
+</html><!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>التحدي</title>
+<style>
+body{
+font-family:Arial;
+text-align:center;
+background:#111;
+color:white;
+padding:40px;
+}
+button{
+padding:10px 20px;
+font-size:18px;
+margin:10px;
+}
+a{
+display:block;
+margin:10px;
+color:#00ffcc;
+font-size:20px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="rules">
+<h2>⚠️ شرط اللعبة</h2>
+<p>إذا خسرت لازم تتابع حساباتنا.</p>
+<button onclick="startGame()">أوافق</button>
+</div>
+
+<div id="game" style="display:none">
+<iframe src="https://chromedino.com" width="600" height="200"></iframe>
+<br><br>
+<button onclick="lose()">خسرت</button>
+</div>
+
+<div id="lose" style="display:none">
+<h2>😅 خسرت!</h2>
+<p>يلا تابع حساباتنا:</p>
+
+<a href="https://instagram.com/youraccount1">الحساب الأول</a>
+<a href="https://instagram.com/youraccount2">الحساب الثاني</a>
+
+</div>
+
+<script>
+function startGame(){
+document.getElementById("rules").style.display="none";
+document.getElementById("game").style.display="block";
+}
+
+function lose(){
+document.getElementById("game").style.display="none";
+document.getElementById("lose").style.display="block";
+}
+</script>
+
+</body>
+</html>
